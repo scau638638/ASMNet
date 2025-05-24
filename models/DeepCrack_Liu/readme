@@ -1,0 +1,9 @@
+@article{liu2019deepcrack,
+  title={DeepCrack: A deep hierarchical feature learning architecture for crack segmentation},
+  author={Yahui Liu and Jian Yao and Xiaohu Lu and others},
+  journal={Neurocomputing},
+  volume={338},
+  pages={139--153},
+  year={2019},
+  doi = {10.1016/j.neucom.2019.01.036}
+}
