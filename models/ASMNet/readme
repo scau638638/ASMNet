@@ -2,4 +2,9 @@
 
 
 model_generator：  模型生成器
-cbam：注意力机制cbam-
+cbam：注意力机制cbam
+
+
+这里我使用了一种比较蠢的方法，但是也懒得改了，使用temp_num记录第几组模型，train_model_num表示temp_num组模型的第几个模型
+temp_num.txt
+train_model_num.txt
