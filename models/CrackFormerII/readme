@@ -1,0 +1,10 @@
+@article{liu2023crackformer,
+  title={CrackFormer network for pavement crack segmentation},
+  author={Liu, Huajun and Yang, Jing and Miao, Xiangyu and others},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={24},
+  number={9},
+  pages={9240--9252},
+  year={2023},
+  doi={10.1109/TITS.2023.3266776}
+}
