@@ -3,9 +3,9 @@ from models.bo.cbam import CBAM
 import torch.nn.functional as F
 from models.bo.util import get_gene_cnt_i
 
-class BONet_dif_low(nn.Module):
+class ASMNet(nn.Module):
     def __init__(self, node_gene=None, node_connect=None):
-        super(BONet_dif_low, self).__init__()
+        super(ASMNet, self).__init__()
 
         # 如果未提供node_gene和node_connect就报错
         if node_gene is None or node_connect is None:
