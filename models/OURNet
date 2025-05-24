@@ -1,7 +1,0 @@
-@article{li2024our,
-  title={OUR-Net: a multi-frequency network with octave max unpooling and octave convolution residual block for pavement crack segmentation},
-  author={Li, Pengtao and Wang, Meihua and Fan, Zhun and others},
-  journal={IEEE Transactions on Intelligent Transportation Systems},
-  year={2024},
-  doi={10.1109/TITS.2024.3405995}
-}
