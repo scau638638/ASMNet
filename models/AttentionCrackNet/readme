@@ -1,0 +1,10 @@
+@article{chen2022novel,
+  title={A novel U-shaped encoder--decoder network with attention mechanism for detection and evaluation of road cracks at pixel level},
+  author={Chen, Jun and He, Ye},
+  journal={Computer-Aided Civil Infrastructure Engineering},
+  volume={37},
+  number={13},
+  pages={1721--1736},
+  year={2022},
+  doi = {10.1111/mice.12826}
+}
