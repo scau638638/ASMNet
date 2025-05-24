@@ -1,3 +1,5 @@
+ Auto-Generating Lightweight Network for Pavement Crack Segmentation via Neural Architecture Search-Based Approach
+
 Abstract
 
 Crack detection is crucial for road maintenance and traffic safety. However, manually designed networks for crack segmentation require domain expertise and extensive experience, and often result in heavyweight models that fail to capture fine-scale crack features. To address these challenges, we proposed a neural architecture search
