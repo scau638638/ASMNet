@@ -1,0 +1,66 @@
+def get_datasets(dataset_name, data_root, train, transforms=None):
+    if dataset_name == 'DRIVE':
+        # from ..DRIVE_dataset import DRIVE_dataset
+        from dataset.DRIVE_dataset import DRIVE_dataset
+        dataset = DRIVE_dataset(data_root=data_root, train=train, transforms=transforms)
+        num_return = dataset.num_return
+    elif dataset_name == 'CFD':
+        from dataset.CFD_dataset import CFDDataset
+        txt_name = 'test'
+        if train:
+            txt_name = 'train'
+        dataset = CFDDataset(dataset_root=data_root, txt_name=txt_name, augment=transforms)
+        num_return = dataset.num_return
+    elif dataset_name == 'DeepCrack537':
+        from dataset.DeepCrack537_dataset import DeepCrack537Dataset
+        mode = 'test'
+        if train:
+            mode = 'train'
+        dataset = DeepCrack537Dataset(dataset_root=data_root, mode=mode, augment=transforms)
+        num_return = dataset.num_return
+    elif dataset_name == 'CrackTree260':
+        from dataset.CrackTree260_dataset import CrackTree260Dataset
+        txt_name = 'test'
+        if train:
+            txt_name = 'train'
+        dataset = CrackTree260Dataset(dataset_root=data_root, txt_name=txt_name, augment=transforms)
+        num_return = dataset.num_return
+    elif dataset_name == 'CrackTree206':
+        from dataset.CrackTree206_dataset import CrackTree206Dataset
+        txt_name = 'test'
+        if train:
+            txt_name = 'train'
+        dataset = CrackTree206Dataset(dataset_root=data_root, txt_name=txt_name, augment=transforms)
+        num_return = dataset.num_return
+    elif dataset_name == 'CRKWH100':
+        from dataset.CRKWH100_dataset import CRKWH100Dataset
+        txt_name = 'test'
+        if train:
+            txt_name = 'train'
+        dataset = CRKWH100Dataset(dataset_root=data_root, txt_name=txt_name, augment=transforms)
+        num_return = dataset.num_return
+    elif dataset_name == 'CrackLS315':
+        from dataset.CrackLS315_dataset import CrackLS315Dataset
+        txt_name = 'test'
+        if train:
+            txt_name = 'train'
+        dataset = CrackLS315Dataset(dataset_root=data_root, txt_name=txt_name, augment=transforms)
+        num_return = dataset.num_return
+    elif dataset_name == 'Crack200':
+        from dataset.Crack200_dataset import Crack200Dataset
+        txt_name = 'test'
+        if train:
+            txt_name = 'train'
+        dataset = Crack200Dataset(dataset_root=data_root, txt_name=txt_name, augment=transforms)
+        num_return = dataset.num_return
+    elif dataset_name == 'Crack500':
+        from dataset.Crack500_dataset import Crack500Dataset
+        mode = 'test'
+        if train:
+            mode = 'train'
+        dataset = Crack500Dataset(dataset_root=data_root, mode=mode, augment=transforms)
+        num_return = dataset.num_return
+    else:
+        raise NotImplementedError
+
+    return dataset, num_return
