@@ -7,7 +7,7 @@ ASMNet：编码成模型并训练
 
 cbam：注意力机制cbam
 
-temp_num.txt   &   train_model_num.txt：这里我使用了一种比较蠢的方法，但是也懒得改了，使用temp_num记录第几组模型，train_model_num表示temp_num组模型的第几个模型
+temp_num.txt   &   train_model_num.txt：   temp_num记录第几组模型，train_model_num表示temp_num组模型的第几个模型（这里我使用了一种比较蠢的方法，但是也懒得改了）
 
 util：模型生成器生成的模型编码是存放在.txt文件里，所以写了一个util来读取模型。
 
