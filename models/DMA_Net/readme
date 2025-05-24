@@ -1,0 +1,10 @@
+@article{sun2022dma,
+  title={DMA-Net: DeepLab with multi-scale attention for pavement crack segmentation},
+  author={Sun, Xinzi and Xie, Yuanchang and Jiang, Liming and others},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={23},
+  number={10},
+  pages={18392--18403},
+  year={2022},
+  doi={10.1109/TITS.2022.3158670}
+}
