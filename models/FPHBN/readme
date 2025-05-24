@@ -1,0 +1,10 @@
+@article{yang2019feature,
+  title={Feature pyramid and hierarchical boosting network for pavement crack detection},
+  author={Yang, Fan and Zhang, Lei and Yu, Sijia and others},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={21},
+  number={4},
+  pages={1525--1535},
+  year={2020},
+  doi={10.1109/TITS.2019.2910595}
+}
