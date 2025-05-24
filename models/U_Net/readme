@@ -1,1 +1,8 @@
-UNet
+@article{prasetyo2025improving,
+  title={Improving Crack Detection Precision of Concrete Structures Using U-Net Architecture and Novel DBCE Loss Function},
+  author={Prasetyo, Andrew and Purnama, I Ketut Eddy and Yuniarno, Eko Mulyanto and others},
+  journal={IEEE Access},
+  pages={20903 - 20922},
+  year={2025},
+  doi={10.1109/ACCESS.2025.3534803}
+}
