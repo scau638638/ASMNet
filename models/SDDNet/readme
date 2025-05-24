@@ -1,0 +1,10 @@
+@article{choi2019sddnet,
+  title={SDDNet: Real-time crack segmentation},
+  author={Choi, Wooram and Cha, Young-Jin},
+  journal={IEEE Transactions on Industrial Electronics},
+  volume={67},
+  number={9},
+  pages={8016--8025},
+  year={2019},
+   doi={10.1109/TIE.2019.2945265}
+}
