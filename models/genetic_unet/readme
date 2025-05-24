@@ -1,0 +1,10 @@
+@article{wei2021genetic,
+  title={Genetic U-Net: automatically designed deep networks for retinal vessel segmentation using a genetic algorithm},
+  author={Wei, Jiahong and Zhu, Guijie and Fan, Zhun and others},
+  journal={IEEE Transactions on Medical Imaging},
+  volume={41},
+  number={2},
+  pages={292--307},
+  year={2021},
+   doi={10.1109/TMI.2021.3111679}
+}
