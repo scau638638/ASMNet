@@ -1,0 +1,10 @@
+@article{kang2022efficient,
+  title={Efficient attention-based deep encoder and decoder for automatic crack segmentation},
+  author={Kang, Dong H and Cha, Young-Jin},
+  journal={Structural Health Monitoring},
+  volume={21},
+  number={5},
+  pages={2190--2205},
+  year={2021},
+  doi={10.1177/14759217211053776}
+}
